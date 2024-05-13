@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team Roster System</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Team Roster System</h1>
+    <hr />
+    <h2>Draft a player:</h2>
+    <label for="player-name">Player name:</label>
+    <input type="text" name="player-name" id="player-name" />
+    <br />
+    <br />
+    <label for="player-position">Player position:</label>
+    <input type="text" name="player-position" id="player-position" />
+    <br />
+    <br />
+    <label for="player-number">Player number:</label>
+    <input type="text" name="player-number" id="player-number" />
+    <br />
+    <br />
+    <button id="draft-btn" onclick="draft()">Draft</button>
+    <button id="remove-btn" onclick="remove()">Remove a Player</button>
+    <hr />
+    <h2>Lineup:</h2>
+    <section id="lineup"></section>
+  </body>
+</html>
