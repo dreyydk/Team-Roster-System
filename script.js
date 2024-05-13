@@ -19,6 +19,10 @@ function draft() {
     newUl.appendChild(numberLi);
 
     lineup.appendChild(newUl);
+
+    nameInput.value = "";
+    positionInput.value = "";
+    numberInput.value = "";
   } else {
     window.alert("Draft canceled.");
   }
